@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Submit</title>
+	<style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif
+        }
+
+        body{
+            background-color: #98efe1;
+        }
+
+        .content{
+            text-align: ;
+            display: ;
+            position: relative;
+           
+        }
+
+        form{
+            display: flex;
+			flex-direction: column;
+            position: relative;
+            overflow: hidden;
+            background-color: #eeeeee;
+            padding: 20px 30px;
+            overflow: hidden;
+            width: 345px;
+            border-radius: 15px;
+            top: 10px;
+            border: 1px solid rgb(141, 141, 141);
+            top: 30px;
+            position: relative;
+            
+            
+            
+
+        }
+        label{
+            /* left: -90px; */
+            text-align: left;
+            margin: 10px;
+            position: relative;
+        }
+
+        input{
+            padding: 10px 15px;
+            width: 320px;
+            margin-bottom: 0px;
+            border-radius: 6px;
+            border: 1px solid rgb(119, 119, 119);
+            display: flex;
+            position: relative;
+           
+        
+        }
+        select{
+            padding: 10px 15px;
+            width: 320px;
+            margin-bottom: 0px;
+            border-radius: 6px;
+            border: 1px solid rgb(119, 119, 119);
+            display: flex;
+            position: relative;
+        }
+        .click{
+            margin: 10px;
+            background-color: rgb(4, 162, 4);
+            color: #fff;
+            border: none;
+            font-size: 15px;
+            font-weight: bold;
+            padding: 10px 20px;
+            border-radius: 6px;
+            margin: 5px;
+            width: 314px;
+            cursor: pointer;
+
+        }
+
+        .click:hover{
+            background-color: rgb(5, 134, 5);
+        }
+
+        textarea{
+            padding: 10px 15px;
+            width: 320px;
+            height: 50px;
+            margin-bottom: 10px;
+            border-radius: 6px;
+            border: 1px solid rgb(122, 121, 121);
+            position: relative;
+
+        }
+
+        .line{
+            font-size: 10px;
+            color: rgb(33, 33, 33);
+            margin: 6px;
+        }
+
+        select{
+            padding: 10px 15px;
+            width: 320px;
+            margin-bottom: 0px;
+            border-radius: 6px;
+            border: 1px solid rgb(119, 119, 119);
+            display: flex;
+            position: relative;
+        }
+	
+	</style>
+    
+</head>
+<body>
+	<div class="content">
+        <center>
+        <form method="post" action="" name="product" id="product">
+            <h1>បញ្ចូនមន្រ្តីចូលរួម</h1>
+            <p style="font-size: 15px;">ទម្រង់បញ្ចូលព័ត៌មានមន្រ្តីដែលបានបញ្ចូនទៅចូលរួមវគ្គបណ្តុះបណ្តាលផ្សេងៗ</p>
+            <label for="naem">អង្គភាព*</label>
+            <select class="fil" type="select" name="អង្គភាព" placeholder="ជ្រើសរើសអង្គភាព" required>
+              <option value="" disabled selected>ជ្រើសរើសអង្គភាព</option>
+              <option name=>នា.បណ្តុះបណ្តាល​ និងស្រាវជ្រាវ</option>
+            </select>
+            
+            <label for="naem">ឈ្មោះ*</label>
+            <select class="fil" type="select" name="ឈ្មោះ" placeholder="ជ្រើសរើសឈ្មោះ" required>
+                <option value="" disabled selected>ឈ្មោះ</option>
+                <option name=>ឌី  សារ៉ាត់</option>
+                <option name=>ប៊ួយ គឹមស៊្រាង</option>
+                <option name=>អ៊ុំ ចាន់ណា</option>
+                <option name=>ជា វិសែស</option>
+                <option name=>សេក មុនី</option>
+                <option name=>លន់ ប៊ុនហេង</option>
+                <option name=>អ៊ួង ប៉ុណ្ណាកា</option>
+                <option name=>ឌុច សុផល</option>
+                <option name=>បែន ចរិយា</option>
+                <option name=>ស៊ឹម សុខមន្នីរត័្ន</option>
+                <option name=>អ៊ាន ចាន់ណា</option>
+                <option name=>ដួង ជីវិន</option>
+                <option name=>សួស សំណាង</option>
+                <option name=>សុន ស៊ីនឿន</option>
+                <option name=>ណែម ផល</option>
+                <option name=>សារិ ពិសិដ្ឋ</option>
+                <option name=> ម៉ៅ មករា</option>
+                <option name=>ស៊ុន ពិសិដ្ឋ</option>
+                <option name=>ជា សុមាលី</option>
+                <option name=>អុន សំអុល</option>
+                <option name=>ជួប លក្ខិណា</option>
+                <option name=>ហួត ឧសភា</option>
+                <option name=>អ៊ឹង ដាលីស</option>
+                <option name=>សួន សុខហេង</option>
+                <option name=>អែម វណ្ណនី</option>
+                <option name=>ឆោម សាញ់</option>
+                <option name=>ហួត សុធី</option>
+                <option name=>ប៉ែន ស៊ីណេរ៉ា</option>
+                <option name=>នាង ពុទ្ធារ៉ា</option>
+                <option name=>ជា ប្រសិត</option>
+                <option name=>យ៉ាន់ សុផល</option>
+                <option name=>ទី សុវ៉ាត់ថារ៉ា</option>
+                <option name=>លី សុខា</option>
+                <option name=>សោម វិរៈវង្ស</option>
+                <option name=>អែម ទិដ្ឋា</option>
+                <option name=>គុជ ព្រីយ៉ាពី</option>
+                <option name=>សាយ សុខា</option>
+                <option name=>តូច ស៊ីថា</option>
+                <option vname=>កែវ ថុន</option>
+                <option name=>ចាន់ និមល</option>
+                <option name=>ស៊ិន  ប្រុស</option>
+            </select>
+
+            <label for="naem">ភេទ*</label>
+            <select class="fil" type="option" name="ភេទ" placeholder="ភេទ" required>
+                    <option value="" disabled selected>ជ្រើសរើសភេទ</option>
+                    <option name=>ប្រុស</option>
+                    <option name=>ស្រី</option>
+            </select>
+        
+            <label for="">ប្រធានបទ*</label>
+            <textarea name="ប្រធានបទ" id="" cols="30" rows="10" placeholder="វាយចំណងជើងប្រធានបទ" required></textarea>
+
+            
+            <label for="naem">ប្រភេទបណ្តុះបណ្តាល*</label>
+            <select class="fil" type="select" name="ប្រភេទបណ្តុះបណ្តាល" placeholder="ប្រភេទបណ្តុះបណ្តាល" required>
+                    <option value="" disabled selected>ជ្រើសរើសប្រភេទបណ្តុះបណ្តាល</option>
+                    <option name=>វគ្គបណ្តុះបណ្តាល</option>
+                    <option name=>សិក្ខាសាលា</option>
+                    <option name=>ទស្សនៈកិច្ចសិក្សា</option>
+                    <option name=>សិក្សារយៈពេលវែង​ ចាប់ពី៦ខែ</option>
+                    <option name=>រៀនសូត្រនៅនឹងកន្លែង</option>
+            </select>
+
+            <label for="naem">ក្នុងប្រទេស/ក្រៅប្រទេស*</label>
+            <select class="fil" type="select" name="ក្នុងប្រទេស/ក្រៅប្រទេស" placeholder="ជ្រើសរើសក្នុងប្រទេស/ក្រៅប្រទេស" required>
+                    <option value="" disabled selected>ក្នុងប្រទេស/ក្រៅប្រទេស</option>
+                    <option name=>ក្នុងប្រទេស</option>
+                    <option name=>ក្រៅប្រទេស</option>                 
+            </select>
+            
+            <label for="naem">វិស័យបណ្តុះបណ្តាល*</label>
+            <select class="fil" type="select" name="វិស័យបណ្តុះបណ្តាល" placeholder="ទទួលបានការបណ្តុះបណ្តាលក្នុងវិស័យអ្វី?" required>
+                    <option name="" disabled selected>ទទួលបានការបណ្តុះបណ្តាលក្នុងវិស័យអ្វី?</option>
+                    <option name=>កសិកម្ម</option>
+                    <option name=>ជនជាតិដើមភាគតិច</option>
+                    <option name=>សេដ្ឋកិច្ច</option>
+                    <option name=>ស្ថាបត្យកម្ម/ផ្លូវ/អគារ/ធារាសាស្រ្ត</option>
+                    <option name=>សហគមន៍</option>
+                    <option name=>ផែនការ/ហិរញ្ញវត្ថុ</option>
+                    <option name=>ច្បាប់/រដ្ឋបាល</option>
+                    <option name=>គម្រោង/ការគ្រប់គ្រង/ភាពជាអ្នកដឹកនាំ</option>
+                    <option name=>ទឹកស្អាត</option>
+                    <option name=>សុខភាព/អនាម័យ</option>
+                    <option name=>បច្ចេកវិទ្យា/ឌីជីថល</option>
+            </select> 
+
+            <label for="naem">ថ្ងៃ/ខែ/ឆ្នាំ*</label>
+            <input class="fil" type="date" name="ថ្ងៃ/ខែ/ឆ្នាំ" placeholder="បញ្ចូលថ្ងៃ/ខែ/ឆ្នាំបណ្តុះបណ្តាល" required>
+
+
+            <label for="naem">ចំនួនថ្ងៃ*</label>
+            <input class="fil" type="number" name="ចំនួនថ្ងៃ" placeholder="ជ្រើសរើសចំនួនថ្ងៃ" required>
+
+            <label for="naem">អង្គភាពរៀបចំ*</label>
+            <select class="fil" type="select" name="អង្គភាពរៀបចំ" placeholder="ទទួលបានការបណ្តុះបណ្តាលក្នុងវិស័យអ្វី?" required>
+                    <option name="" disabled selected>ជ្រើសរើសអង្គភាពអ្នករៀបចំ</option>
+                    <option name=>អង្គភាពក្រោមឱវាទក្រសួង</option>
+                    <option name=>អង្គភាពខាងក្រៅ</option>
+            </select> 
+
+
+            <label for="">ទីកន្លែងរៀបចំ*</label>
+            <textarea name="ទីកន្លែងរៀបចំ" id="" cols="30" rows="10" placeholder="វាយទីកន្លែងរៀបចំ" required></textarea>
+
+            <button class="click">Submit &#10132;</button>
+            
+            <p style="  font-size: 10px; color: rgb(33, 33, 33); margin: 6px;">នា.បណ្តុះបណ្តាល</p>
+
+        </form>
+        </center>
+      
+    </div>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwRJ8lQjDv2x2CoRSwPJRD9AVWxXy7EBV8L0qLSthlLru_3lMqS_KNAhCmjR2k8IZTf5w/exec';
+        const form = document.forms['product'];
+        
+        form.addEventListener('submit', e => {
+          e.preventDefault();
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log("បញ្ចូលជោគជ័យ"))
+            .then(() => {
+              window.location.reload(true);
+            })
+            .catch(error => console.error('Error!', error.message));
+        });
+        
+    </script>
+        
+        
+    <br>
+</body>
+</html>
